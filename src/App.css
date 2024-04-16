@@ -1,0 +1,164 @@
+@import url('https://fonts.cdnfonts.com/css/coffee-shop');
+
+body {
+  background-color: #d1d1cc;
+}
+
+.App {
+  box-shadow: 0 4px 6px rgb(255, 255, 255);
+  border-radius: 10px;
+  background-color: #7f8C83; 
+  padding: 20px;
+  max-width: 1000px;
+  margin: 110px auto;
+  text-align: center; 
+}
+
+h1,
+h2 {
+  color: white;
+  font-weight: bold;
+  font-family: 'Coffee Shop', sans-serif;
+  text-align: center;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
+  border: 1px solid white;
+  border-radius: 15px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-right: 30px;
+  margin-left: 30px;
+  background-color: #7f8C83; 
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+input[type="text"],
+select {
+  flex: 1;
+  padding: 3px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 25px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #f5f5f5;
+  font-size: 14px; 
+  height: 30px; 
+  padding: 5px; 
+}
+
+button[type="submit"] {
+  background-color: #455a4b;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  margin-top: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 14px; 
+  height: 35px; 
+  padding: 5px 15px; 
+}
+
+.entries-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.entry {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #7f8C83;
+  border-radius: 5px;
+  width: 90%; 
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto; /* Centered */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff; 
+}
+
+.entry button {
+  background-color: #7f8C83;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 50px; 
+}
+
+.entry .check-button {
+  padding: 5px 15px; 
+}
+
+.entry .delete-button {
+  padding: 5px 15px; 
+}
+
+.product-container {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 80px;
+  text-align: left; 
+}
+
+.product {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #3c3c5e;
+  border-radius: 5px;
+  width: 90%; 
+  margin-right: auto;
+  margin-left: auto; 
+  margin-bottom: 15px;
+  background-color: #393760;
+}
+
+.product button {
+  background-color: #393760;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.product button:hover {
+  background-color: #393760;
+}
